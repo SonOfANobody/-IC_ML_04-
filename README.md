@@ -1,2 +1,33 @@
-# -IC_ML_04-
-The Handwritten Text Generation Project explores advanced deep learning techniques to generate realistic handwritten text using AI models. The project focuses on sequence modeling and generative learning, showcasing strong understanding of neural networks and creative AI applications.
+Project Title
+
+Handwritten Text Generation Using Deep Learning
+
+Overview
+
+This project focuses on generating realistic handwritten-style text using generative deep learning models.
+
+Key Features
+
+Handwriting image preprocessing
+
+Sequence modeling
+
+Generative text synthesis
+
+AI-based handwriting simulation
+
+Models Used
+
+RNN
+
+GAN (Generative Adversarial Networks)
+
+Tools & Libraries
+
+Python
+
+TensorFlow / Keras
+
+NumPy
+
+Matplotlib
