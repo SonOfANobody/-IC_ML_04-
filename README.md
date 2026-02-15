@@ -125,6 +125,3 @@ python train_and_evaluate
 Muhammad Abdulkareem
 
 Aspiring Data Scientist & ML Engineer
-
-Focus: Computer Vision | Sequential Modeling | Deep Learning
-
