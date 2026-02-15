@@ -94,14 +94,14 @@ Data Augmentation: Injecting "Elastic Distortions" to simulate natural hand trem
 Clone & Setup
 
 Bash
-git clone https://github.com/yourusername/handwriting-rnn.git
+git clone https://github.com/SonOfANobody/handwriting-rnn.git
 pip install -r requirements.txt
 
 
 Train & Evaluate
 
 Python
-# Run the unified training and validation script
+Run the unified training and validation script
 python src/main.py
 
 📝 Usage
