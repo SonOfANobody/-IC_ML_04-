@@ -62,6 +62,10 @@ Metrics: Scikit-Learn
 
 TensorFlow / Keras
 
+## Dataset
+
+[Dataset: Handwriting](https://www.kaggle.com/datasets/crawford/emnist?utm_source=chatgpt.com)
+
 ## 🔮 Future Improvements
 
 Bi-directional LSTMs: To capture "stroke context" from both top-to-bottom and bottom-to-top.
