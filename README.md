@@ -1,12 +1,3 @@
-Project Title
-
-Handwritten Text Generation Using Deep Learning
-
-Overview
-
-This project f deep learning models.
-
-
 📜 Handwriting Text Recognition & Generation (RNN/LSTM)
 
 🚀 Project Overview
@@ -27,6 +18,7 @@ AI-based handwriting simulation
 RNN
 
 🧠 Model Architecture
+
 We utilize a Stacked LSTM (Long Short-Term Memory) architecture designed to capture the spatial dependencies of pen strokes.
 
 Input Layer: 28-pixel features (mapping one row of an image per time-step).
@@ -58,7 +50,9 @@ handwriting-project/
 │
 ├── requirements.txt            # Environment Dependencies
 └── README.md                   # Documentation
+
 📊 Dataset & Preprocessing
+
 Source: EMNIST Balanced (Extended MNIST).
 
 Normalization: Pixel values scaled to [0, 1] for faster gradient convergence.
@@ -66,6 +60,7 @@ Normalization: Pixel values scaled to [0, 1] for faster gradient convergence.
 Orientation Fix: 90-degree rotation and horizontal flip applied via Transpose (.T) to correct raw dataset storage formats.
 
 ⚙️ Training & Evaluation Strategy
+
 Optimizer: AdamW (Weight Decay) for superior generalization.
 
 Loss Function: Cross-Entropy Loss.
@@ -75,6 +70,7 @@ Metric Focus: F1-Score (to balance precision and recall across potentially imbal
 Visual Debugging: Confusion Matrix Heatmaps to identify "Character Overlap" (e.g., confusing '5' with 'S').
 
 🛠 Technologies Used
+
 Core: Python, PyTorch (Deep Learning)
 
 Data: Pandas, NumPy
@@ -94,6 +90,7 @@ CTC Loss Integration: Move from single-character recognition to full word/senten
 Data Augmentation: Injecting "Elastic Distortions" to simulate natural hand tremors and pen pressure.
 
 🧑‍💻 Quick Start
+
 Clone & Setup
 
 Bash
